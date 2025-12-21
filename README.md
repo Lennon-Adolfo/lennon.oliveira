@@ -67,9 +67,11 @@ https://github.com/Lennon-Adolfo/Projeto-MagikIA
 ## 🖼️ Prints do projeto
 
 > Alguns prints do portfólio em funcionamento:
-
-![Página Inicial](assets/imagens/preview1.png)  
-![Projetos](assets/imagens/preview2.png)  
+# Página Inicial / Sobre Mim 
+![Página Inicial](assets/imagens/preview1.png)
+# Projetos  
+![Projetos](assets/imagens/preview2.png)
+# Contatos
 ![Contato](assets/imagens/preview3.png)
 
 ---
