@@ -72,8 +72,6 @@ https://github.com/Lennon-Adolfo/Projeto-MagikIA
 ![Projetos](assets/imagens/preview2.png)  
 ![Contato](assets/imagens/preview3.png)
 
-*(Se quiser, posso te ajudar a renomear ou organizar esses prints certinho)*
-
 ---
 
 ## 📬 Contato
