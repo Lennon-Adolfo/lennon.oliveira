@@ -1,4 +1,3 @@
-// Scroll suave do menu
 document.querySelectorAll('.menu a').forEach(link => {
     link.addEventListener('click', function (e) {
         e.preventDefault();
@@ -14,7 +13,7 @@ document.querySelectorAll('.menu a').forEach(link => {
     });
 });
 
-// Animação ao rolar a página
+
 function revealOnScroll() {
     const reveals = document.querySelectorAll('.reveal');
 
@@ -28,6 +27,21 @@ function revealOnScroll() {
         }
     });
 }
+
+let lastScrollTop = 0;
+const navbar = document.querySelector('.navbar');
+
+window.addEventListener('scroll', () => {
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop) {
+        navbar.style.transform = 'translateY(-100%)';
+    } else {
+        navbar.style.transform = 'translateY(0)';
+    }
+
+    lastScrollTop = scrollTop;
+});
 
 window.addEventListener('scroll', revealOnScroll);
 revealOnScroll();
