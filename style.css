@@ -277,7 +277,7 @@ h2 {
 
 .hero h2 {
     font-size: 1.6rem;
-    color: #93c5fd;
+    color: #cbd5f5;
     margin-bottom: 20px;
 }
 
@@ -304,20 +304,20 @@ h2 {
 }
 
 .btn-primary {
-    background-color: #2563eb;
+    border: 2px solid #fa6060;
     color: #fff;
 }
 
 .btn-primary:hover {
-    background-color: #1e40af;
+    background-color: #fa6060;
 }
 
 .btn-secondary {
-    border: 2px solid #2563eb;
-    color: #93c5fd;
+    border: 2px solid #fa6060;
+    color: #cbd5f5;
 }
 
 .btn-secondary:hover {
-    background-color: #2563eb;
+    background-color: #fa6060;
     color: #fff;
 }
