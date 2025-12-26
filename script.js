@@ -1,14 +1,16 @@
 document.querySelectorAll('.menu a').forEach(link => {
     link.addEventListener('click', function (e) {
-        e.preventDefault();
+        const href = this.getAttribute('href');
 
-        const targetID = this.getAttribute('href');
-        const targetSection = document.querySelector(targetID);
+        if (href.startsWith('#')) {
+            e.preventDefault();
 
-        if (targetSection) {
-            targetSection.scrollIntoView({
-                behavior: 'smooth'
-            });
+            const targetSection = document.querySelector(href);
+            if (targetSection) {
+                targetSection.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
         }
     });
 });
