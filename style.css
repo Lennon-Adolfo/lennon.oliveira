@@ -323,3 +323,14 @@ h2 {
     background-color: #fa6060;
     color: #aaa6aa;
 }
+
+.projects-cta {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #020617;
+}
+.projects-cta a {
+    color: #fa6060;
+    font-weight: bold;
+}
