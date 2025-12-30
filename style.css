@@ -209,3 +209,39 @@ h2 {
 .whatsapp-float:hover {
   transform: scale(1.1);
 }
+
+.servicos h2 {
+    color: var(--primary);
+    margin-bottom: 30px;
+}
+
+.servicos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.servicos .card {
+    text-align: left;
+}
+
+.servicos .card h3 {
+    color: var(--accent);
+    margin-bottom: 10px;
+}
+
+.diferenciais-lista {
+    list-style: none;
+    margin-top: 20px;
+    color: var(--text-main);
+}
+
+.diferenciais-lista li {
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+}
+
+.cta-final {
+    text-align: center;
+    margin-top: 80px;
+}
